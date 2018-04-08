@@ -47,12 +47,13 @@ function incrementCounterInFile(){
     
 };
 
-incrementCounterInFile();
+//incrementCounterInFile();
 
-// app.get('/', function(req, res){
-//     res.send('Hello world');
-// });
+app.get('/', function(req, res){
+    //res.send(incrementCounterInFile());
+    res.send('Hello world');
+});
 
-// app.listen(3000, function(){
-//     console.log('example app listening on port 3000');
-// });
+app.listen(3000, function(){
+    console.log('example app listening on port 3000');
+});
