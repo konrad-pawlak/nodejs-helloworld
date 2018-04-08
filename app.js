@@ -64,6 +64,6 @@ app.get('/increment', function(req, res){
     //res.send('incrementing');
 });
 
-app.listen(80, function(){
+app.listen(3000, function(){
     console.log('Listening on port 3000...');
 }); 
